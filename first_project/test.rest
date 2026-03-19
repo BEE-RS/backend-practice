@@ -1,0 +1,24 @@
+### TEST GET / WEBSITE
+
+GET http://localhost:8756
+
+### TEST GET /chill
+
+GET http://localhost:8756/chill
+
+### TEST GET /api/data
+
+GET http://localhost:8756/api/data
+
+### TEST POST /api/data
+
+POST http://localhost:8756/api/data
+Content-Type: application/json
+
+{
+    "name": "Chill"
+}
+
+### TEST DELETE END POINT
+
+DELETE http://localhost:8756/api/data
