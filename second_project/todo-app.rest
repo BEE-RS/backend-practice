@@ -1,0 +1,20 @@
+### GER /
+GET http://localhost:8756
+
+### POST /auth/register
+POST http://localhost:8756/auth/register
+Content-Type: application/json
+
+{
+    "username": "BEE@gmail.com",
+    "password": "12342137237299"
+}
+
+### POST /auth/login
+POST http://localhost:8756/auth/login
+Content-Type: application/json
+
+{
+    "username": "BEE@gmail.com",
+    "password": "12342137237299"
+}
